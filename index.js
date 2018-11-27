@@ -22,11 +22,10 @@ function sayHiToGrandma(string) {
   string.toLowerCase() === string
   return "I can't hear you!"
   
-  string.toLowerCase() === string
+  string.toUpperCase() === string
   return "YES INDEED!"
   
-  var loveyou = "I love you, Grandma."
-  string = loveyou
-    return "I love you, too."
+  string === "I love you, Grandma."
+  return "I love you, too."
   
 }
